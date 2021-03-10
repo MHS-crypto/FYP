@@ -1,0 +1,103 @@
+*
+{
+   
+	margin: 0;
+	padding: 0;
+}
+.all
+{
+    margin-top: 930px;
+}
+
+
+.table
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+.h1
+{
+	text-transform: uppercase;
+	font-size: 2.5em;
+	letter-spacing: 3px;
+	margin-right: -3px;
+	margin-bottom: 3rem;
+	text-align: center;
+	color: #333;
+	position: relative;
+}
+.h1::after
+{	
+	content: "";
+	width: 10rem;
+	height: .8rem;
+	background-color: #45e19f;
+	position: absolute;
+	bottom: -1rem;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 2rem;
+}
+
+.im1:hover
+{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(223, 37, 145, 0.747);
+}
+
+.im2:hover
+{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(223, 37, 145, 0.747);
+}
+
+.im3:hover
+{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(223, 37, 145, 0.747);
+}
+
+.im4:hover
+{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(223, 37, 145, 0.747);
+}
+.im5:hover
+{
+	margin-top: 10px;
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(223, 37, 145, 0.747);
+}
+.im6
+{
+	margin-top: -14px;
+	
+}
+.im6:hover
+{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(223, 37, 145, 0.747);
+}
+.im7
+{
+	margin-top: 10px;
+	
+}
+
+.im7:hover
+{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(223, 37, 145, 0.747);
+}
+.im8
+{
+	margin-top: -15px;
+	
+}
+
+.im8:hover
+{
+	transform: translateY(-2px);
+	box-shadow: .5rem .5rem 2rem rgba(223, 37, 145, 0.747);
+}
