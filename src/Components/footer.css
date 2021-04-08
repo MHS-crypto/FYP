@@ -21,8 +21,10 @@
     color: #eee;
   }
   a:hover {
+    color: white;
     text-decoration: underline;
   }
+  
   .ft-title {
     color: #fff;
     font-family: "Roboto", sans-serif;

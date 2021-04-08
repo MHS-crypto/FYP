@@ -1,6 +1,8 @@
 import React from 'react';
-import img1 from './Images/images.jpg';
-import img2 from './Images/bg2.jpg';
+import img1 from './Images/doc7.jpg';
+import img2 from './Images/doc8.jpg';
+import img3 from './Images/doc9.jpg';
+import img4 from './Images/Hos1.jpg';
 import './Gynacologist.css';
 
 
@@ -8,7 +10,7 @@ import './Gynacologist.css';
 function Diagnostics() {
   return (
   
-    <div class="bgimg"  >
+    <div class="bgimg" style={{backgroundImage:`linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(${img4})`}}  >
         <br/> <br/> <br/>
   
     <div class="card-container"  >
@@ -18,9 +20,9 @@ function Diagnostics() {
        src={img1}
         alt="user"
     />
-    <h1>Dr Ayesha Khan</h1>
-    <h3>Pakistan</h3>
-    <p>
+    <h1 id="hh">Dr Noreen Akmal</h1>
+    <h3 id="hhh">Pakistan</h3>
+    <p id="ppp">
         <b>Medical Specialist <br />
         General Sergon</b>
     </p>
@@ -33,7 +35,7 @@ function Diagnostics() {
         </button>
     </div>
     <div class="skills">
-        <h3>Qualification</h3>
+    <h3 id="qual">Qualification</h3><br/>
         <ul>
             <li>MBBS</li>
             <li>Surgery Courses</li>
@@ -50,12 +52,12 @@ function Diagnostics() {
     
     <img
         class="round"
-       src={img1}
+       src={img2}
         alt="user"
     />
-    <h1>Dr Saud Altaf</h1>
-    <h3>Pakistan</h3>
-    <p>
+    <h1 id="hh">Dr Aqib Shah</h1>
+    <h3 id="hhh">Pakistan</h3>
+    <p id="ppp">
         <b>Medical Specialist <br />
         General Sergon</b>
     </p>
@@ -68,7 +70,7 @@ function Diagnostics() {
         </button>
     </div>
     <div class="skills">
-    <h3>Qualification</h3>
+    <h3 id="qual">Qualification</h3><br/>
         <ul>
             <li>MBBS</li>
             <li>Surgery Courses</li>
@@ -85,12 +87,12 @@ function Diagnostics() {
     
     <img
         class="round"
-       src={img1}
+       src={img3}
         alt="user"
     />
-    <h1>Dr Saif Ur-Rehman</h1>
-    <h3>Pakistan</h3>
-    <p>
+    <h1 id="hh">Dr Kashif Khan</h1>
+    <h3 id="hhh">Pakistan</h3>
+    <p id="ppp">
         <b>Medical Specialist <br />
         General Sergon</b>
     </p>
@@ -103,7 +105,7 @@ function Diagnostics() {
         </button>
     </div>
     <div class="skills">
-        <h3>Qualification</h3>
+    <h3 id="qual">Qualification</h3><br/>
         <ul>
             <li>MBBS</li>
             <li>Surgery Courses</li>
@@ -116,38 +118,6 @@ function Diagnostics() {
 <br/>
 <br/>
 
-<div class="card-container">
-    
-    <img
-        class="round"
-       src={img1}
-        alt="user"
-    />
-    <h1>Dr Asad Uncle</h1>
-    <h3>Pakistan</h3>
-    <p>
-        <b>Medical Specialist <br />
-        General Sergon</b>
-    </p>
-    <div class="buttons">
-        <button class="primary">
-            Call Now
-        </button>&ensp;&ensp;
-        <button class="primary ghost">
-           Make Appointment
-        </button>
-    </div>
-    <div class="skills">
-        <h3>Qualification</h3>
-        <ul>
-            <li>MBBS</li>
-            <li>Surgery Courses</li>
-            <li>Intenships</li>
-            <li>Therapy Doplama</li>
-            <li>Surgical Experience</li>
-        </ul>
-    </div>
-</div>
 </div> 
    
   );

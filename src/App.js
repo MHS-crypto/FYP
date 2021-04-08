@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Components/Home';
 import Signup from './Components/Signup';
 import Aboutus from './Components/Aboutus';
+import Contactus from './Components/Contactus';
 import Login from './Components/Login';
 import Gynacologist from './Components/Gynacologist';
 import Skin from './Components/SkinSpecialist';
@@ -23,6 +24,7 @@ function App() {
 <Route path="/signup" component={Signup}></Route>
 <Route path="/home" component={Home}></Route>
 <Route path="/aboutus" component={Aboutus}></Route>
+<Route path="/contactus" component={Contactus}></Route>
 <Route path="/Login" component={Login}></Route>
 <Route path="/Gynacologist" component={Gynacologist}></Route>
 <Route path="/Skin" component={Skin}></Route>

@@ -1,14 +1,15 @@
 import React from 'react';
-import img1 from './Images/images.jpg';
-import img2 from './Images/bg2.jpg';
+import img1 from './Images/doc22.jpg';
+import img2 from './Images/doc23.jpg';
+import img3 from './Images/doc24.jpg';
+import img4 from './Images/Hos1.jpg';
+
 import './Gynacologist.css';
-
-
 
 function Eye() {
   return (
   
-    <div class="bgimg"  >
+    <div class="bgimg" style={{backgroundImage:`linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(${img4})`}} >
         <br/> <br/> <br/>
   
     <div class="card-container"  >
@@ -18,22 +19,22 @@ function Eye() {
        src={img1}
         alt="user"
     />
-    <h1>Dr Ayesha Khan</h1>
-    <h3>Pakistan</h3>
-    <p>
+    <h1 id="hh">Dr Imran Khan</h1>
+    <h3 id="hhh">Pakistan</h3>
+    <p id="ppp">
         <b>Medical Specialist <br />
         General Sergon</b>
     </p>
-    <div class="buttons">
+    <div class="buttons" id="btn212">
         <button class="primary">
             Call Now
         </button>&ensp;&ensp;
-        <button class="primary ghost">
+        <button class="primary ghost" id="btn213">
            Make Appointment
         </button>
     </div>
     <div class="skills">
-        <h3>Qualification</h3>
+    <h3 id="qual">Qualification</h3><br/>
         <ul>
             <li>MBBS</li>
             <li>Surgery Courses</li>
@@ -50,12 +51,12 @@ function Eye() {
     
     <img
         class="round"
-       src={img1}
+       src={img2}
         alt="user"
     />
-    <h1>Dr Saud Altaf</h1>
-    <h3>Pakistan</h3>
-    <p>
+    <h1 id="hh">Dr Kamran Abid</h1>
+    <h3 id="hhh">Pakistan</h3>
+    <p id="ppp">
         <b>Medical Specialist <br />
         General Sergon</b>
     </p>
@@ -68,7 +69,7 @@ function Eye() {
         </button>
     </div>
     <div class="skills">
-    <h3>Qualification</h3>
+    <h3 id="qual">Qualification</h3><br/>
         <ul>
             <li>MBBS</li>
             <li>Surgery Courses</li>
@@ -85,12 +86,12 @@ function Eye() {
     
     <img
         class="round"
-       src={img1}
+       src={img3}
         alt="user"
     />
-    <h1>Dr Saif Ur-Rehman</h1>
-    <h3>Pakistan</h3>
-    <p>
+    <h1 id="hh">Dr Shenaz Bibi</h1>
+    <h3  id="hhh">Pakistan</h3>
+    <p id="ppp">
         <b>Medical Specialist <br />
         General Sergon</b>
     </p>
@@ -103,7 +104,7 @@ function Eye() {
         </button>
     </div>
     <div class="skills">
-        <h3>Qualification</h3>
+    <h3 id="qual">Qualification</h3><br/>
         <ul>
             <li>MBBS</li>
             <li>Surgery Courses</li>
@@ -116,39 +117,8 @@ function Eye() {
 <br/>
 <br/>
 
-<div class="card-container">
-    
-    <img
-        class="round"
-       src={img1}
-        alt="user"
-    />
-    <h1>Dr Asad Uncle</h1>
-    <h3>Pakistan</h3>
-    <p>
-        <b>Medical Specialist <br />
-        General Sergon</b>
-    </p>
-    <div class="buttons">
-        <button class="primary">
-            Call Now
-        </button>&ensp;&ensp;
-        <button class="primary ghost">
-           Make Appointment
-        </button>
-    </div>
-    <div class="skills">
-        <h3>Qualification</h3>
-        <ul>
-            <li>MBBS</li>
-            <li>Surgery Courses</li>
-            <li>Intenships</li>
-            <li>Therapy Doplama</li>
-            <li>Surgical Experience</li>
-        </ul>
-    </div>
-</div>
 </div> 
+
    
   );
 }

@@ -3,94 +3,36 @@ import './NavBar.css';
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import Signup from './Signup';
 
-
 function NavBar() {
   return (   
     
-    
     <div>
-    
-         <div class="menue-bar" id="top">
+        <div class="menue-bar" id="top">
          <Switch>
             <ul>
-            <li class="active1" id="home"><Link to="/home">MedTech</Link></li>
-           
-
+            <li class="active1" id="home"><Link to="/home">MedTech</Link></li> 
             <li><a href="#move"> <i class="fa fa-ellipsis-v" > </i>Hospitals</a>
 
             <div class="sub-menue1">
 	            <ul>
-	                <li class="hover-me"> <a href="#move"> PIMS Hospital </a> {/*<i class="fa fa-angle-right" > </i> */}
-	  
-	                  {/*  <div class="sub-menue2">
+	                <li class="hover-me"> <a href="#move"> PIMS Hospital </a> 
 
-		                    <ul>
-	                            <li> <a href="category.html"> Gynecologist </a> </li>
-	                            <li> <a href="category.html"> Child Specialist </a> </li>
-	                            <li> <a href="category.html"> Orthopedic Surgeon </a> </li>
-                                <li> <a href="category.html"> Eye Specialist </a> </li>
-                                <li> <a href="category.html"> ENT Specialist </a> </li>
-	                        </ul>
-			
-                             </div> */}
-	  
 	                </li>
 
-	                <li class="hover-me"> <a href="#move"> Cantt General Hospital </a>   {/*<i class="fa fa-angle-right" > </i> */}
-	  
-	                   {/* <div class="sub-menue2">
-
-		                    <ul>
-	                            <li> <a href="category.html"> Skin Specialist </a> </li>
-	                            <li> <a href="category.html"> Diabetes specialist </a> </li>
-	                            <li> <a href="category.html"> Eye Specialist </a> </li>
-                                <li> <a href="category.html"> ENT Specialist</a> </li>
-	                        </ul>
-                            </div>    */}
-		
+	                <li class="hover-me"> <a href="#move"> Cantt General Hospital </a>  
 	   
 	                </li>
 
-	                <li class="hover-me"> <a href="#move"> District Headquarter Hospital </a> {/*<i class="fa fa-angle-right" > </i> */} 
-                   {/* <div class="sub-menue2">
-
-                            <ul>
-                                <li> <a href="category.html"> Skin Specialist </a> </li>
-                                <li> <a href="category.html"> Diabetes specialist </a> </li>
-                                <li> <a href="category.html"> Eye Specialist </a> </li>
-                                <li> <a href="category.html"> ENT Specialist</a> </li>
-                            </ul>
-                        </div> */}
+	                <li class="hover-me"> <a href="#move"> District Headquarter Hospital </a> 
                     </li>    
 
-                    <li class="hover-me"> <a href="#move"> Holy Family Hospital </a> {/*<i class="fa fa-angle-right" > </i> */}
-                   {/* <div class="sub-menue2">
-
-                            <ul>
-                                <li> <a href="category.html"> Skin Specialist </a> </li>
-                                <li> <a href="category.html"> Diabetes specialist </a> </li>
-                                
-                            </ul>
-                    </div> */}
+                    <li class="hover-me"> <a href="#move"> Holy Family Hospital </a> 
                     </li>    
 
-                    <li class="hover-me"> <a href="#move"> Benazir Bhutto Shaheed Hospital </a> {/*<i class="fa fa-angle-right" > </i> */}
-                    {/* <div class="sub-menue2">
-
-                            <ul>
-                                <li> <a href="category.html"> Skin Specialist </a> </li>
-                                <li> <a href="category.html"> Diabetes specialist </a> </li>
-                                
-                            </ul>
-                </div> */}
+                    <li class="hover-me"> <a href="#move"> Benazir Bhutto Shaheed Hospital </a> 
                     </li>    
-
 	            </ul>
-	  
 	        </div>
-	  
-
-
             </li>
 
             <li><Link to="/aboutus"><i class="fa fa-user" > </i> About Us </Link>
@@ -102,26 +44,14 @@ function NavBar() {
 	                <li> <a href="#About"> Mission </a> </li>
 	            </ul>
 	        </div>
-
             </li>
-
-            
             <li> <Link to="/aboutus"><i class="fa fa-phone" > </i>Contact </Link> </li> 
             <li><Link to="/signup"><i class="fa fa-user-plus" > </i>Signup </Link></li>
             <li><Link to="/Login"><i class="fa fa-sign-in" > </i>Admin Login </Link> </li>
-            
- 
-
         </ul>
         </Switch>
-
     </div>
-
     </div>
-
-
-
-
   );
 }
 

@@ -1,21 +1,18 @@
 import React from 'react';
 import './Signup.css';
-import img1 from './Images/c.jpg';
+import img3 from './Images/Hos1.jpg';
 import { makeStyles } from '@material-ui/core/styles';
-
-
-
 
 function Signup() {
   
   return (
-    <div class="bod1" style={{backgroundImage:`linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(${img1})`}}>
+    <div class="bod1" class="bgimg1" style={{backgroundImage:`linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(${img3})`}} >
          <div class="login-wrap" >
             <div class="login-html" >
                 <input id="tab-1" type="radio" name="tab" class="sign-in" checked/><label for="tab-1" class="tab">Sign In</label>
                 <input id="tab-2" type="radio" name="tab" class="sign-up"/><label for="tab-2" class="tab">Sign Up</label>
                 <div class="login-form">
-                <form class="sign-in-htm" action="./api/user/login.php" method="GET">
+                <form class="sign-in-htm" action="#" method="GET">
                     <div class="group">
                     <label for="user" class="label">Username</label>
                     <input id="username" name="username" type="text" class="input"/>
@@ -24,6 +21,7 @@ function Signup() {
                     <label for="pass" class="label">Password</label>
                     <input id="password" name="password" type="password" class="input" data-type="password"/>
                     </div>
+
                     <div class="group">
                     <input id="check" type="checkbox" class="check" checked/>
                     <label for="check"><span class="icon"></span> Keep me Signed in</label>
@@ -43,11 +41,26 @@ function Signup() {
                     </div>
                     
                     <div class="group">
-                    <label for="pass" class="label">Password</label>
+                    <label for="pass" class="label">Email</label>
                     <input id="password" name="password" type="password" class="input" data-type="password"/>
                     </div>
                     <div class="group">
-                    <label for="pass" class="label">Confirm Password</label>
+                    <label for="pass" class="label">Password</label>
+                    <input id="password" name="password" type="password" class="input" data-type="password"/>
+                    </div>
+
+                    <div class="group">
+                    <label for="pass" class="label"> Confirm Password</label>
+                    <input id="password" name="password" type="password" class="input" data-type="password"/>
+                    </div>
+
+                    <div class="group">
+                    <label for="pass" class="label">Phone No</label>
+                    <input id="password" name="password" type="password" class="input" data-type="password"/>
+                    </div>
+                    
+                    <div class="group">
+                    <label for="pass" class="label">Address</label>
                     <input id="pass" name="cpassword" type="password" class="input" data-type="password"/>
                     </div>
                     <div class="group">

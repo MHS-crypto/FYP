@@ -16,40 +16,20 @@ function Departments() {
     
     
     <div class="all" id="move">
-        <h1 align="center" class="h1">Choose Department</h1>
-        <table class="table"> 
-            <tr>
-                <Switch>
-                <td>
-                   <Link to="/Gynacologist"> <img class="im1" src={img1}/></Link>  
-                </td>
-                </Switch>
-                <td>
-                    <Link to="/Skin"> <img class="im2" src={img2}/> </Link>
-                </td>
-                <td>
-                   <Link to="/Child"> <img class="im3" src={img3}/> </Link>
-                </td>
-                <td>
-                    <Link to="/ENT"><img class="im4" src={img4}/> </Link>
-                </td>			
-            </tr>
-            <tr>
-                <td>
-                    <Link to="/Orthopadic"><img class="im5" src={img5}/></Link>
-                </td>
-                <td>
-                   <Link to="/Diagnostics"> <img class="im6" src={img6}/> </Link>
-                </td>
-                <td>
-                   <Link to="/Diabetes"><img class="im7" src={img7}/> </Link>
-                </td>
-                <td>
-                    <Link to="/Eye"><img class="im8" src={img8}/></Link>
-                </td>			
-            </tr>
-        </table>
-      
+        <h1 align="center" class="h1a">Choose Department</h1>
+            <div class="depp">
+            
+               <Link to="/Gynacologist"> <img class="im1" src={img1}/></Link>  
+               <Link to="/Skin"> <img class="im2" src={img2}/> </Link>                   
+               <Link to="/Child"> <img class="im3" src={img3}/> </Link>             
+               <Link to="/ENT"><img class="im4" src={img4}/> </Link>
+               <br/>       
+               <Link to="/Orthopadic"><img class="im5" src={img5}/></Link>
+               <Link to="/Diagnostics"> <img class="im6" src={img6}/> </Link>              
+               <Link to="/Diabetes"><img class="im7" src={img7}/> </Link>               
+               <Link to="/Eye"><img class="im8" src={img8}/></Link>
+               
+            </div>      
     </div>
   );
 }
